@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='py-4 border-t-2'>
-          <p className='text-center text-gray-600'>Copyright &#169;2024 StartP. All rights reserved by <span className='text-black'>EnvyTheme</span></p>
+          <p className='text-center text-gray-600 text-[12px]'>Copyright &#169;2024 StartP. All rights reserved by <span className='text-black'>EnvyTheme</span></p>
         </div>
       </div>
     </div>
