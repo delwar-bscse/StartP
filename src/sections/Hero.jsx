@@ -25,7 +25,7 @@ const Hero = () => {
           <div data-aos="zoom-in" className='flex flex-col items-start gap-7'>
             <h2 className='text-3xl lg:text-5xl font-semibold text-gray-700'>Secure IT Solutions <br/>for a more secure <br/>environment</h2>
             <p  className='text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
-            <button className='bg-green-500 hover:bg-indigo-500 text-white font-semibold rounded-md px-7 py-3'>GET STARTED</button>
+            <button className='bg-green-500 hover:bg-indigo-500 active:bg-indigo-400 text-white font-semibold rounded-md px-7 py-3'>GET STARTED</button>
           </div>
           <div data-aos="zoom-in" data-aos-delay="400" className='flex justify-center items-center'>
             <img src={mainPic} alt="Design image" className='w-[80%]' />

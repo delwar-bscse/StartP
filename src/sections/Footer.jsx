@@ -36,15 +36,15 @@ const Footer = () => {
           <div>
             <h3 className='text-xl font-semibold text-gray-500'>Address</h3>
             <div className='text-gray-500 flex flex-col gap-y-2 pt-6'>
-              <div className='flex justify-start items-normal gap-x-2 text-center'>
+              <div className='flex justify-start items-start gap-x-2 text-center'>
                 <GrLocation className='text-xl'/>
-                <p>27 Division St, New York,<br /> NY 10002, USA</p>
+                <p className='text-start'>27 Division St, New York, NY-10002, USA</p>
               </div>
-              <div className='flex justify-start items-normal gap-x-2'>
+              <div className='flex justify-start items-start gap-x-2'>
                 <GrMailOption />
                 <p>Email: startp@gmail.com</p>
               </div>
-              <div className='flex justify-start items-normal gap-x-2'>
+              <div className='flex justify-start items-start gap-x-2'>
                 <GrPhone />
                 <p>Phone: + (321) 984 754</p>
               </div>

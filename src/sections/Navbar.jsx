@@ -87,8 +87,8 @@ const Navbar = () => {
                 <FiShoppingCart />
                 <span className='absolute -top-1 -right-1 text-[10px] bg-red-500 text-white px-[2px] rounded-full leading-3'>0</span>
                 </div>
-                <button className='px-5 py-[6px] rounded-sm text-sm font-semibold box-border text-gray-600 border-[2px] border-dashed max-md:hidden'>SUPPORT</button>
-                <button className='bg-[#c679e3] px-2 md:px-5 py-1 md:py-2 rounded-sm text-[11px] md:text-sm font-semibold text-white hover:bg-green-500 duration-500'>LOGIN</button>
+                <button className='px-5 py-[6px] rounded-sm text-sm font-semibold box-border text-gray-600 border-[2px] border-dashed active:bg-gray-50 max-md:hidden'>SUPPORT</button>
+                <button className='bg-[#c679e3] px-2 md:px-5 py-1 md:py-2 rounded-sm text-[11px] md:text-sm font-semibold text-white hover:bg-green-500 active:bg-green-300 duration-500'>LOGIN</button>
                 <button className='text-2xl md:text-3xl lg:hidden' onClick={()=>setIsMenu(!isMenu)}>{isMenu ? < IoClose /> : < IoMdMenu/>}</button>
               </div>
             </div>

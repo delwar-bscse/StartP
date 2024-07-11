@@ -8,6 +8,7 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import ProgressBar from '../components/ProgressBar';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { motion } from 'framer-motion'
 
 const Design = () => {
   
@@ -23,7 +24,7 @@ const Design = () => {
   return (
     <div className='bg-[#fffcfc] py-20'>
       <div className='w-[90%] max-w-[1440px] m-auto flex max-lg:flex-col justify-center gap-5'>
-        <div data-aos="fade-down" data-aos-delay="400" className='basis-1/2 flex justify-center items-center'>
+        <div data-aos="zoom-in" data-aos-delay="400" className='basis-1/2 flex justify-center items-center'>
           <img src={design1} alt="Design image" className='' />
         </div>
         <div className='basis-1/2'>
@@ -36,42 +37,42 @@ const Design = () => {
           </div>
           <div className=''>
             <ul className=' grid grid-cols-1 sm:grid-cols-2 justify-between gap-5'>
-              <li className='group hover:bg-green-500 duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-md p-3 rounded-sm'>
+              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
                 <AiOutlineLayout className='text-green-600 text-2xl group-hover:text-white' />
                 <p className='text-gray-400 font-semibold group-hover:text-white'>Responsive design</p>
               </li>
 
-              <li className='group hover:bg-green-500 duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-md p-3 rounded-sm'>
+              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
                 <PiBracketsAngle className='text-green-600 text-2xl group-hover:text-white' />
                 <p className='text-gray-400 font-semibold group-hover:text-white'>React web development</p>
               </li>
 
-              <li className='group hover:bg-green-500 duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-md p-3 rounded-sm'>
+              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
                 <CiMobile2 className='text-green-600 text-2xl group-hover:text-white' />
                 <p className='text-gray-400 font-semibold group-hover:text-white'>Android apps development</p>
               </li>
 
-              <li className='group hover:bg-green-500 duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-md p-3 rounded-sm'>
+              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
                 <PiBracketsAngle className='text-green-600 text-2xl group-hover:text-white' />
                 <p className='text-gray-400 font-semibold group-hover:text-white'>Laravel web development</p>
               </li>
 
-              <li className='group hover:bg-green-500 duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-md p-3 rounded-sm'>
+              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
                 <CiMobile2 className='text-green-600 text-2xl group-hover:text-white' />
                 <p className='text-gray-400 font-semibold group-hover:text-white'>iOS apps development</p>
               </li>
 
-              <li className='group hover:bg-green-500 duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-md p-3 rounded-sm'>
+              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
                 <PiPercent className='text-green-600 text-2xl group-hover:text-white' />
                 <p className='text-gray-400 font-semibold group-hover:text-white'>UX/UI design</p>
               </li>
 
-              <li className='group hover:bg-green-500 duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-md p-3 rounded-sm'>
+              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
                 <FiShoppingCart className='text-green-600 text-2xl group-hover:text-white' />
                 <p className='text-gray-400 font-semibold group-hover:text-white'>E-commerce development</p>
               </li>
 
-              <li className='group hover:bg-green-500 duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-md p-3 rounded-sm'>
+              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
                 <IoMdCheckmarkCircleOutline className='text-green-600 text-2xl group-hover:text-white' />
                 <p className='text-gray-400 font-semibold group-hover:text-white'>Print ready design</p>
               </li>
