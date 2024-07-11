@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {worksData} from '../assets/data';
 import { IoSettingsOutline } from "react-icons/io5";
+import ProgressBar from "../components/ProgressBar";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import ProgressBar from "../components/ProgressBar";
 
 const Recent = () => {
   
@@ -33,7 +33,6 @@ const Recent = () => {
       {breakpoint: 570, settings: {slidesToShow: 1}},
     ],
   };
-
 
   return (
     <div className="bg-[#f7fafd] py-20">

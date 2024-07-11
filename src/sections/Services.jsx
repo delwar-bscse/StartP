@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import service1 from '../assets/images/service1.png'
 
 import { GrStorage } from "react-icons/gr";
@@ -9,8 +9,20 @@ import { HiMiniArrowTrendingUp } from "react-icons/hi2";
 import { MdOutlineMail } from "react-icons/md";
 import { CiGlobe } from "react-icons/ci";
 import ProgressBar from '../components/ProgressBar';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Services = () => {
+  
+  useEffect(()=>{
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in-out-sine',
+      delay: 200
+    })
+  },[]);
+
   return (
     <div className='bg-[#fffcfc] py-20'>
       <div className='w-[90%] m-auto flex max-lg:flex-col justify-center gap-5'>
@@ -67,7 +79,7 @@ const Services = () => {
             </ul>
           </div>
         </div>
-        <div className='basis-1/2 flex justify-center items-center'>
+        <div data-aos="fade-left" data-aos-delay="400" className='basis-1/2 flex justify-center items-center'>
           <img src={service1} alt="Design image" className='' />
         </div>
       </div>

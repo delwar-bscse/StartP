@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import design1 from '../assets/images/design1.png'
 import { CiMobile2 } from "react-icons/ci";
 import { AiOutlineLayout } from "react-icons/ai";
@@ -6,12 +6,24 @@ import { PiBracketsAngle, PiPercent } from "react-icons/pi";
 import { FiShoppingCart } from "react-icons/fi";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import ProgressBar from '../components/ProgressBar';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Design = () => {
+  
+  useEffect(()=>{
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in-out-sine',
+      delay: 200
+    })
+  },[]);
+
   return (
     <div className='bg-[#fffcfc] py-20'>
       <div className='w-[90%] m-auto flex max-lg:flex-col justify-center gap-5'>
-        <div className='basis-1/2 flex justify-center items-center'>
+        <div data-aos="fade-right" data-aos-delay="400" className='basis-1/2 flex justify-center items-center'>
           <img src={design1} alt="Design image" className='' />
         </div>
         <div className='basis-1/2'>
