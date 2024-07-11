@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div>
       <div className='fixed z-20 shadow-md w-full top-0 bg-white'>
-        <div className='w-[90%] m-auto'>
+        <div className='w-[90%] max-w-[1440px] m-auto'>
           <div className='flex justify-between items-center max-lg:p-3'>
             <div><img src={logo} alt="company logo" /></div>
             <div className='flex justify-end items-center gap-10'>

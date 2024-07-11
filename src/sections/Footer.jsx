@@ -7,7 +7,7 @@ import { GrLocation, GrMailOption, GrPhone  } from "react-icons/gr";
 const Footer = () => {
   return (
     <div id='footerSection' className='bg-center bg-no-repeat bg-[#F7FAFD]' style={{backgroundImage:`url(${bgFooter})`}}>
-      <div className='font-sans w-[90%] m-auto'>
+      <div className='w-[90%] max-w-[1440px] m-auto'>
         <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between items-start gap-10 py-[50px]'>
           <div>
             <img src={logoFooter} alt="Company Logo" />

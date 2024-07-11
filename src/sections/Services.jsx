@@ -25,7 +25,7 @@ const Services = () => {
 
   return (
     <div className='bg-[#fffcfc] py-20'>
-      <div className='w-[90%] m-auto flex max-lg:flex-col justify-center gap-5'>
+      <div className='w-[90%] max-w-[1440px] m-auto flex max-lg:flex-col justify-center gap-5'>
         
         <div className='basis-1/2'>
           <div className='flex flex-col items-start justify-start gap-5 pb-10'>

@@ -21,7 +21,7 @@ const Feature = () => {
 
   return (
     <div className='bg-[#f7fafd] py-20'>
-      <div className='w-[90%] m-auto'>
+      <div className='w-[90%] max-w-[1440px] m-auto'>
         <div data-aos="zoom-in" data-aos-delay="400"  className='flex flex-col items-center justify-start gap-5 pb-10'>
           <h2 className='text-2xl md:text-3xl font-semibold text-gray-700'>Our Features</h2>
           <div>

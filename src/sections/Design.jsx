@@ -22,7 +22,7 @@ const Design = () => {
 
   return (
     <div className='bg-[#fffcfc] py-20'>
-      <div className='w-[90%] m-auto flex max-lg:flex-col justify-center gap-5'>
+      <div className='w-[90%] max-w-[1440px] m-auto flex max-lg:flex-col justify-center gap-5'>
         <div data-aos="fade-down" data-aos-delay="400" className='basis-1/2 flex justify-center items-center'>
           <img src={design1} alt="Design image" className='' />
         </div>
