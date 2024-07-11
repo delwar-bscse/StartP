@@ -23,8 +23,8 @@ const Hero = () => {
       <div className='w-[90%] m-auto'>
         <div className='grid grid-cols-1 lg:grid-cols-2 items-end gap-10'>
           <div className='flex flex-col items-start gap-7'>
-            <h2 data-aos="fade-right" className='text-3xl lg:text-5xl font-semibold text-gray-700'>Secure IT Solutions <br/>for a more secure <br/>environment</h2>
-            <p data-aos="fade-right" className='text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
+            <h2 data-aos="zoom-in" className='text-3xl lg:text-5xl font-semibold text-gray-700'>Secure IT Solutions <br/>for a more secure <br/>environment</h2>
+            <p data-aos="zoom-in" className='text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
             <button data-aos="zoom-in" data-aos-delay="400" className='bg-green-500 hover:bg-indigo-500 text-white font-semibold rounded-md px-7 py-3'>GET STARTED</button>
           </div>
           <div data-aos="zoom-in" data-aos-delay="400" className='flex justify-center items-center'>

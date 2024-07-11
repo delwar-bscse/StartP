@@ -79,7 +79,7 @@ const Services = () => {
             </ul>
           </div>
         </div>
-        <div data-aos="fade-left" data-aos-delay="400" className='basis-1/2 flex justify-center items-center'>
+        <div data-aos="fade-down" data-aos-delay="400" className='basis-1/2 flex justify-center items-center'>
           <img src={service1} alt="Design image" className='' />
         </div>
       </div>
