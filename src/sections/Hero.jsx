@@ -7,7 +7,7 @@ import { LuGitBranch } from "react-icons/lu";
 
 const Hero = () => {
   return (
-    <div>
+    <div className='pt-[150px] pb-10'>
       <div className='w-[90%] m-auto'>
         <div className='grid grid-cols-1 lg:grid-cols-2 items-end gap-10'>
           <div className='flex flex-col items-start gap-7'>
