@@ -31,7 +31,7 @@ const Feature = () => {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
-          <div className='group flex max-lg:flex-col gap-3 items-start bg-white shadow-sm p-5 rounded-md hover:-translate-y-3 transition-all duration-500'>
+          <div className='group flex max-lg:flex-col gap-3 items-start bg-white shadow-sm p-5 rounded-md hover:-translate-y-3 transition-all duration-500 cursor-pointer'>
             <div className='p-3 rounded-full bg-green-200 group-hover:bg-green-700 duration-500'><IoSettingsOutline className='text-3xl text-green-900 group-hover:text-white'/></div>
             <div className='flex flex-col justify-between gap-2'>
               <h3 className='text-xl font-semibold text-gray-700'>Incredible Infrastructure</h3>
@@ -39,7 +39,7 @@ const Feature = () => {
             </div>
           </div>
           
-          <div className='group flex max-lg:flex-col gap-3 items-start bg-white shadow-sm p-5 rounded-md hover:-translate-y-3 transition-all duration-500'>
+          <div className='group flex max-lg:flex-col gap-3 items-start bg-white shadow-sm p-5 rounded-md hover:-translate-y-3 transition-all duration-500 cursor-pointer'>
             <div className='p-3 rounded-full bg-green-200 group-hover:bg-green-700'><CiMail className='text-3xl text-green-900 group-hover:text-white'/></div>
             <div className='flex flex-col justify-between gap-2'>
               <h3 className='text-xl font-semibold text-gray-700'>Email Notifications</h3>
@@ -47,7 +47,7 @@ const Feature = () => {
             </div>
           </div>
 
-          <div className='group flex max-lg:flex-col gap-3 items-start bg-white shadow-sm p-5 rounded-md hover:-translate-y-3 transition-all duration-500'>
+          <div className='group flex max-lg:flex-col gap-3 items-start bg-white shadow-sm p-5 rounded-md hover:-translate-y-3 transition-all duration-500 cursor-pointer'>
             <div className='p-3 rounded-full bg-indigo-200 group-hover:bg-indigo-700'><RxDashboard className='text-3xl text-green-900 group-hover:text-white'/></div>
             <div className='flex flex-col justify-between gap-2'>
               <h3 className='text-xl font-semibold text-gray-700'>Simple Dashboard</h3>
@@ -55,7 +55,7 @@ const Feature = () => {
             </div>
           </div>
 
-          <div className='group flex max-lg:flex-col gap-3 items-start bg-white shadow-sm p-5 rounded-md hover:-translate-y-3 transition-all duration-500'>
+          <div className='group flex max-lg:flex-col gap-3 items-start bg-white shadow-sm p-5 rounded-md hover:-translate-y-3 transition-all duration-500 cursor-pointer'>
             <div className='p-3 rounded-full bg-indigo-200 group-hover:bg-indigo-700'><IoIosInformationCircleOutline className='text-3xl text-green-900 group-hover:text-white'/></div>
             <div className='flex flex-col justify-between gap-2'>
               <h3 className='text-xl font-semibold text-gray-700'>Information Retrieval</h3>
@@ -63,7 +63,7 @@ const Feature = () => {
             </div>
           </div>
 
-          <div className='group flex max-lg:flex-col gap-3 items-start bg-white shadow-sm p-5 rounded-md hover:-translate-y-3 transition-all duration-500'>
+          <div className='group flex max-lg:flex-col gap-3 items-start bg-white shadow-sm p-5 rounded-md hover:-translate-y-3 transition-all duration-500 cursor-pointer'>
             <div className='p-3 rounded-full bg-red-200 group-hover:bg-red-600'><IoCubeOutline className='text-3xl text-green-900 group-hover:text-white'/></div>
             <div className='flex flex-col justify-between gap-2'>
               <h3 className='text-xl font-semibold text-gray-700'>Drag & Drop Functionality</h3>
@@ -71,7 +71,7 @@ const Feature = () => {
             </div>
           </div>
 
-          <div className='group flex max-lg:flex-col gap-3 items-start bg-white shadow-sm p-5 rounded-md hover:-translate-y-3 transition-all duration-500'>
+          <div className='group flex max-lg:flex-col gap-3 items-start bg-white shadow-sm p-5 rounded-md hover:-translate-y-3 transition-all duration-500 cursor-pointer'>
             <div className='p-3 rounded-full bg-red-200 group-hover:bg-red-600'><GoBell className='text-3xl text-green-900 group-hover:text-white'/></div>
             <div className='flex flex-col justify-between gap-2'>
               <h3 className='text-xl font-semibold text-gray-700'>Deadline Reminders</h3>

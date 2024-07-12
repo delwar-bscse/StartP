@@ -35,49 +35,47 @@ const Services = () => {
             </div>
             <p className=' text-gray-400 leading-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br /> tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div className=''>
-            <ul className=' grid grid-cols-1 sm:grid-cols-2 justify-between gap-5'>
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <GrStorage className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>Cloud databases</p>
-              </li>
+          <ul className='grid grid-cols-1 sm:grid-cols-2 justify-between items-center gap-5'>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <GrStorage className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>Cloud databases</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <CiGlobe className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>Website hosting</p>
-              </li>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <CiGlobe className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>Website hosting</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <FaRegFile className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>File storage</p>
-              </li>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <FaRegFile className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>File storage</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <HiMiniArrowTrendingUp className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>Forex trading</p>
-              </li>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <HiMiniArrowTrendingUp className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>Forex trading</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <FaRegFolder className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>File backups</p>
-              </li>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <FaRegFolder className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>File backups</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <FiMonitor className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>Remote desktop</p>
-              </li>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <FiMonitor className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>Remote desktop</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <MdOutlineMail className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>Email servers</p>
-              </li>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <MdOutlineMail className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>Email servers</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <IoMdCloudOutline className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>Hybrid cloud</p>
-              </li>
-            </ul>
-          </div>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <IoMdCloudOutline className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>Hybrid cloud</p>
+            </li>
+          </ul>
         </div>
         <div data-aos="zoom-in" data-aos-delay="400" className='relative basis-1/2 flex justify-center items-center'>
           <img src={service1} alt="Design image" className='w-[60%]' />

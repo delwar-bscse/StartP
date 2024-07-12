@@ -38,49 +38,47 @@ const Design = () => {
             </div>
             <p className=' text-gray-400 leading-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br /> tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div className=''>
-            <ul className=' grid grid-cols-1 sm:grid-cols-2 justify-between gap-5'>
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <AiOutlineLayout className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>Responsive design</p>
-              </li>
+          <ul className='grid grid-cols-1 sm:grid-cols-2 justify-between items-center gap-5'>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <AiOutlineLayout className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>Responsive design</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <PiBracketsAngle className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>React web development</p>
-              </li>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <PiBracketsAngle className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>React web development</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <CiMobile2 className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>Android apps development</p>
-              </li>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <CiMobile2 className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>Android apps development</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <PiBracketsAngle className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>Laravel web development</p>
-              </li>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <PiBracketsAngle className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>Laravel web development</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <CiMobile2 className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>iOS apps development</p>
-              </li>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <CiMobile2 className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>iOS apps development</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <PiPercent className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>UX/UI design</p>
-              </li>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <PiPercent className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>UX/UI design</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <FiShoppingCart className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>E-commerce development</p>
-              </li>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <FiShoppingCart className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>E-commerce development</p>
+            </li>
 
-              <li className='group hover:bg-green-500 cursor-pointer duration-500 hover:-translate-y-1 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
-                <IoMdCheckmarkCircleOutline className='text-green-600 text-2xl group-hover:text-white' />
-                <p className='text-gray-400 font-semibold group-hover:text-white'>Print ready design</p>
-              </li>
-            </ul>
-          </div>
+            <li className='group hover:bg-green-500 cursor-pointer duration-500 flex gap-3 bg-white shadow-lst p-3 rounded-sm'>
+              <IoMdCheckmarkCircleOutline className='text-green-600 text-2xl group-hover:text-white' />
+              <p className='text-gray-400 font-semibold group-hover:text-white'>Print ready design</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
