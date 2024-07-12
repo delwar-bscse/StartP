@@ -1,12 +1,11 @@
 import React from 'react'
-import logoFooter from '../assets/images/logoFooter.png'
-import bgFooter from '../assets/images/bgFooter.png'
+import logoFooter from '/src/assets/images/logoFooter.png'
 import { SlSocialFacebook, SlSocialTwitter, SlSocialInstagram, SlSocialLinkedin   } from "react-icons/sl";
 import { GrLocation, GrMailOption, GrPhone  } from "react-icons/gr";
 
 const Footer = () => {
   return (
-    <div id='footerSection' className='bg-center bg-no-repeat bg-[#F7FAFD]' style={{backgroundImage:`url(${bgFooter})`}}>
+    <div id='footerSection' className='bg-bgTexture bg-center bg-no-repeat bg-[#F7FAFD]'>
       <div className='w-[90%] max-w-[1440px] m-auto'>
         <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between items-start gap-10 py-[50px]'>
           <div>
