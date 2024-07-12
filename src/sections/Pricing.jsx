@@ -25,8 +25,8 @@ const Pricing = () => {
           <p className='text-center text-gray-400 leading-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br /> tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7'>
-          <div data-aos="zoom-in"  data-aos-delay="400" className='group flex flex-col justify-start items-center shadow-md bg-white pb-8 cursor-pointer'>
-            <div className='border-b-[2px] w-full bg-gradient-to-r group-hover:from-green-400 group-hover:to-blue-500'>
+          <div data-aos="fade-up"  data-aos-delay="400" className='group flex flex-col justify-start items-center shadow-md bg-white pb-8 cursor-pointer'>
+            <div className='border-b-[2px] w-full bg-gradient-to-br group-hover:from-[#23bdb8] group-hover:to-[#43e794]'>
               <h2 className='border-gray-500 text-gray-600 py-8 text-center text-xl font-semibold group-hover:text-white'>BASIC PLAN</h2>
             </div>
             <ul className='flex flex-col justify-start items-center gap-3 text-gray-500 p-10'>
@@ -40,11 +40,11 @@ const Pricing = () => {
               <li className='line-through'>Data Security and Backups</li>
               <li className='line-through'>Monthly Reports and Analytics</li>
             </ul>
-            <button className='rounded-lg bg-green-500 hover:bg-indigo-500 text-white font-semibold px-5 py-3'>SELECT PLAN</button>
+            <button className='rounded-lg bg-green-500 hover:bg-indigo-500 active:bg-indigo-300 text-white font-semibold px-5 py-3'>SELECT PLAN</button>
           </div>
           
-          <div data-aos="zoom-in"  data-aos-delay="400"  className='group flex flex-col justify-start items-center shadow-md bg-white pb-8 cursor-pointer'>
-            <div className='border-b-[2px] w-full bg-gradient-to-r group-hover:from-green-400 group-hover:to-blue-500'>
+          <div data-aos="fade-up"  data-aos-delay="400" className='group flex flex-col justify-start items-center shadow-md bg-white pb-8 cursor-pointer'>
+            <div className='border-b-[2px] w-full bg-gradient-to-br group-hover:from-[#23bdb8] group-hover:to-[#43e794]'>
               <h2 className='border-gray-500 text-gray-600 py-8 text-center text-xl font-semibold group-hover:text-white'>ADVANCED PLAN</h2>
             </div>
             <ul className='flex flex-col justify-start items-center gap-3 text-gray-500 p-10'>
@@ -58,11 +58,11 @@ const Pricing = () => {
               <li>Data Security and Backups</li>
               <li className='line-through'>Monthly Reports and Analytics</li>
             </ul>
-            <button className='rounded-lg bg-green-500 hover:bg-indigo-500 text-white font-semibold px-5 py-3'>SELECT PLAN</button>
+            <button className='rounded-lg bg-green-500 hover:bg-indigo-500 active:bg-indigo-300 text-white font-semibold px-5 py-3'>SELECT PLAN</button>
           </div>
 
-          <div data-aos="zoom-in"  data-aos-delay="400"  className='group flex flex-col justify-start items-center shadow-md bg-white pb-8 cursor-pointer'>
-            <div className='border-b-[2px] w-full bg-gradient-to-r group-hover:from-green-400 group-hover:to-blue-500'>
+          <div data-aos="fade-up"  data-aos-delay="400" className='group flex flex-col justify-start items-center shadow-md bg-white pb-8 cursor-pointer'>
+            <div className='border-b-[2px] w-full bg-gradient-to-br group-hover:from-[#23bdb8] group-hover:to-[#43e794]'>
               <h2 className='border-gray-500 text-gray-600 py-8 text-center text-xl font-semibold group-hover:text-white'>EXPERT PLAN</h2>
             </div>
             <ul className='flex flex-col justify-start items-center gap-3 text-gray-500 p-10'>
@@ -76,7 +76,7 @@ const Pricing = () => {
               <li>Data Security and Backups</li>
               <li>Monthly Reports and Analytics</li>
             </ul>
-            <button className='rounded-lg bg-green-500 hover:bg-indigo-500 text-white font-semibold px-5 py-3'>SELECT PLAN</button>
+            <button className='rounded-lg bg-green-500 hover:bg-indigo-500 active:bg-indigo-300 text-white font-semibold px-5 py-3'>SELECT PLAN</button>
           </div>
 
         </div>

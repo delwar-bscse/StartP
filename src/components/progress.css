@@ -7,8 +7,13 @@
   width: 10px;
   border-radius: 50%;
   background: #44ce6f;
+  /* animation: 3s linear 1s infinite running slidein; */
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-name: MOVE-BG;
+}
+@keyframes MOVE-BG{
+  from {left: 0px;}
+  to{left:85px}
 }

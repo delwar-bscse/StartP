@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.rotateAnimation{
+  -webkit-animation: spin 30s linear infinite;
+  -moz-animation: spin 30s linear infinite;
+  animation: spin 30s linear infinite;
+}
+
+@-webkit-keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}

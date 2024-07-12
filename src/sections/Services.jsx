@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import service1 from '../assets/images/service1.png'
+import circleShape from '../assets/images/cercleShape.png'
 
 import { GrStorage } from "react-icons/gr";
 import { FaRegFile, FaRegFolder } from "react-icons/fa";
@@ -11,7 +12,6 @@ import { CiGlobe } from "react-icons/ci";
 import ProgressBar from '../components/ProgressBar';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import { motion } from 'framer-motion'
 
 const Services = () => {
   
@@ -26,8 +26,7 @@ const Services = () => {
 
   return (
     <div className='bg-[#fffcfc] py-20'>
-      <div className='w-[90%] max-w-[1440px] m-auto flex max-lg:flex-col-reverse justify-center gap-5'>
-        
+      <div className='w-[90%] max-w-[1440px] m-auto flex max-lg:flex-col-reverse justify-center gap-16 sm:gap-32 lg:gap-7'>
         <div className='basis-1/2'>
           <div className='flex flex-col items-start justify-start gap-5 pb-10'>
             <h2 className='text-2xl md:text-3xl font-semibold text-gray-700'>Cloud Hosting Services</h2>
@@ -80,8 +79,10 @@ const Services = () => {
             </ul>
           </div>
         </div>
-        <div data-aos="zoom-in" data-aos-delay="400" className='basis-1/2 flex justify-center items-center'>
-          <img src={service1} alt="Design image" className='' />
+        <div data-aos="zoom-in" data-aos-delay="400" className='relative basis-1/2 flex justify-center items-center'>
+          <img src={service1} alt="Design image" className='w-[60%]' />
+
+          <img src={circleShape} alt="circle shape" className='absolute w-[90%] rotateAnimation'/>
         </div>
       </div>
     </div>

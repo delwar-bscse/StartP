@@ -10,7 +10,7 @@ export default {
         'lst': '0 0 7px -1px rgba(0, 0, 0, 0.1)',
       },
       backgroundImage: {
-        'bgTexture': "url('/public/bgFooter.png')"
+        'bgTexture': "url('/bgFooter.png')"
       }
     },
   },

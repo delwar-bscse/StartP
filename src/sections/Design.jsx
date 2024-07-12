@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import design1 from '../assets/images/design1.png'
+import circleShape from '../assets/images/cercleShape.png'
 import { CiMobile2 } from "react-icons/ci";
 import { AiOutlineLayout } from "react-icons/ai";
 import { PiBracketsAngle, PiPercent } from "react-icons/pi";
@@ -23,9 +24,11 @@ const Design = () => {
 
   return (
     <div className='bg-[#fffcfc] py-20'>
-      <div className='w-[90%] max-w-[1440px] m-auto flex max-lg:flex-col justify-center gap-5'>
-        <div data-aos="zoom-in" data-aos-delay="400" className='basis-1/2 flex justify-center items-center'>
-          <img src={design1} alt="Design image" className='' />
+      <div className='w-[90%] max-w-[1440px] m-auto flex max-lg:flex-col justify-center gap-24 sm:gap-32 lg:gap-7'>
+        <div data-aos="zoom-in" data-aos-delay="400" className='relative basis-1/2 flex justify-center items-center'>
+          <img src={design1} alt="Design image" className='w-[55%]' />
+
+          <img src={circleShape} alt="circle shape" className='absolute w-[90%] rotateAnimation'/>
         </div>
         <div className='basis-1/2'>
           <div className='flex flex-col items-start justify-start gap-5 pb-10'>
